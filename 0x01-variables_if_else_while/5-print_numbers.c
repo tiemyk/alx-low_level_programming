@@ -1,21 +1,17 @@
 #include <stdio.h>
 
-
 /**
- * main - program that prints the alphabet in lowercase and upper case
- *
- * Return: Always 0.
- */
-
+  * main - Prints the numbers since 0 to 9
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	char letter;
+	char n;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
+	for (n = '0'; n <= '9'; n++)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		putchar(n);
 	}
 
 	putchar('\n');
