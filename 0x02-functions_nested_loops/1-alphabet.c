@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - this is the function of the task
+ * main - This function prints the alphabet to the console.
  * Return: Always 0.
  */
 void print_alphabet(void)
