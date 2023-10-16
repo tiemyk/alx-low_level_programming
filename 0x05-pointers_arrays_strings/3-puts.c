@@ -1,17 +1,18 @@
-#include "main.h"
 /**
- * _puts - function nam
- *@str: function parameter
+ * _puts - Write a function that prints a string, followed by a new line, to
+ * stdout.
+ *
+ * @str: This is my input string
+ *
  */
 
 void _puts(char *str)
 {
+	int index;
 
-
-while (str != '\0')
-{
-	_putchar (str++);
+	for (index = 0; str[index] != '\0'; index++)
+	{
+		_putchar(str[index]);
+	}
+	_putchar('\n');
 }
-	_putchar ('\n');
-}
-
